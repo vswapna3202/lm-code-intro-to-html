@@ -26,10 +26,20 @@
 
 		<label for="site-search">Search...</label>
 		<input type="search" id="site-search" name="search" aria-label="Search through site content">
-		<button>Search</button>
+		<button id="searchButton">Search</button>
+
+		<div id="imageContainer">
+			<div id="imageMessage" style="display:none;">
+				Enjoy viewing the tallest buildings in the world while you search.
+			</div>
+			<img id="image1" src="./img/FirstTallestInWorld.png" alt="Tallest Building in World" style="display:none;">
+			<img id="image2" src="./img/SecondTallestInWorld.png" alt="Second Tallest Building in World" style="display:none;">
+			<img id="image3" src="./img/ThirdTallestInWorld.png" alt="Third Tallest Building in World" style="display:none;">
+		</div>
 
 		<section>
-			<h3><strong>COVID Restriction Update</strong></h3>
+			<h3 id="covid-update-heading"><strong>COVID Restriction Update [&gt;&gt;&gt; Click Me! &lt;&lt;&lt;] </strong></h3>
+			<script src="./js/script.js"></script>
 
 			<p>Throughout the pandemic we have strove to make the surgery as safe as possible for all our patients and
 				staff, we will continue to do so.</p>
