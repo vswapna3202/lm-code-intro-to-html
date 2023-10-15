@@ -6,6 +6,7 @@
     	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<title>Tech Returners Surgery: Home</title>
+		<link href="styles.css" rel="stylesheet">
 	</head>
 
 	<body>
@@ -24,17 +25,20 @@
 			</ul>
 		</nav>
 
-		<label for="site-search">Search...</label>
-		<input type="search" id="site-search" name="search" aria-label="Search through site content">
-		<button id="searchButton">Search</button>
+		<div class="search-container">
+			<label for="site-search">Search...</label>
+			<input type="search" id="site-search" name="search" aria-label="Search through site content">
+			<button id="searchButton">Search</button>
+		</div>
 
 		<div id="imageContainer">
 			<div id="imageMessage" style="display:none;">
 				Enjoy viewing the tallest buildings in the world while you search.
 			</div>
-			<img id="image1" src="./img/FirstTallestInWorld.png" alt="Tallest Building in World" style="display:none;">
-			<img id="image2" src="./img/SecondTallestInWorld.png" alt="Second Tallest Building in World" style="display:none;">
-			<img id="image3" src="./img/ThirdTallestInWorld.png" alt="Third Tallest Building in World" style="display:none;">
+			<img id="image1" src="./img/FirstTallestInWorld.png" alt="Tallest Building in World Burj Khalifa, Dubai" style="display:none;">
+			<img id="image2" src="./img/SecondTallestInWorld.png" alt="Second Tallest Building in World Shanghai Tower, Shanghai" style="display:none;">
+			<img id="image3" src="./img/ThirdTallestInWorld.png" alt="Third Tallest Building in World, Makkah Royal Clock Tower, Mecca" style="display:none;">
+
 		</div>
 
 		<section>
@@ -80,7 +84,7 @@
 		</section>
 
 
-		<section>
+		<section class="special-section">
 			<h2>Need advice or have some feedback for us?</h2>
 
 			<div>
